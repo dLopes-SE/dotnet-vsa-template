@@ -8,7 +8,7 @@ namespace finance_app.ArchitectureTests.Convensions
     public void Should_start_with_I()
     {
       // Arrange
-      var interfaceTypes = Assembly.Load("finance-app")
+      var interfaceTypes = Assembly.Load("dotnet-vsa-template")
         .GetTypes()
         .Where(t => t.IsInterface);
 
